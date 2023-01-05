@@ -9,3 +9,7 @@ import (
 func Hello() {
 	logrus.Infof("Hello: %v", time.Now().String())
 }
+
+func HelloWorld() {
+	logrus.Infof("Hello World: %v", time.Now().String())
+}
